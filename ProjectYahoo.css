@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+hr{
+opacity: 0.2;
+}
+img{
+  width: 55px;
+  height: 55px;
+}
+input[type=text] {
+  border: 0;
+  padding: 20px;
+  flex-grow: 1;
+  height: 15px;
+  font-size: 2rem;
+  margin: 0 0;
+  color: rgba(0,0,0,0.8);
+}
+input[type=text]:hover {
+  border-color: white;
+}
+input[type=text]:focus{
+ outline: none;
+}
+p{
+  margin-right: 5px;
+}
+
+pre {
+  text-align: right;
+  color: white;
+  margin: 20px;
+}
+.container {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  display: flex;
+  height: 55px;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin: 100px;
+}
+.right {
+  margin-left: auto;
+}
+header a {
+  text-decoration: none;
+
+}
+body {
+  background-image: url("pier.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#Profile{
+
+  height: 10px;
+  width: 50px;
+}
